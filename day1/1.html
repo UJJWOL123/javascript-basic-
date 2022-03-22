@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <a> </a>
+</head>
+<body>
+    <button id="1" >Red</button>
+    <button id="2">Black</button>
+    <button id="3">white</button>
+    <button id="4">Yellow</button>
+    <button id="5">Orange</button>
+    <script>
+     let red = document.getElementById('1');
+        // red.addEventListener('click',myfunc);
+        function myfunc(){
+            document.body.style.backgroundColor="red";
+        };
+        red.onclick=myfunc;
+        
+    let black = document.getElementById('2');
+        function myfunc2(){
+            document.body.style.backgroundColor="Black";
+                     }
+        black.onclick=myfunc2;
+    let white = document.getElementById('3');
+         function myfunc3() {
+        document.body.style.backgroundColor="white";
+        }
+        white.onclick=myfunc3;
+
+    let Yellow= document.getElementById('4');
+    function myfunc4(){
+        document.body.style.backgroundColor="Yellow";
+    }
+    Yellow.onclick=myfunc4;
+    let Orange = document.getElementById('5');
+    function myfunc5(){
+        document.body.style.backgroundColor="orange";
+    }
+    Orange.addEventListener('click',myfunc5)
+    //  body.style.background=
+    </script>
+</body>
+</html>
